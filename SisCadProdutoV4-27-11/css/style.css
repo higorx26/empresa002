@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    background-color: #111;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #333;
+}
+
+.titulo {
+    color: #ffa500;
+    padding-bottom: 2px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600vh;
+    height: 600px;
+    padding: 20px;
+    padding-bottom: 20vh;
+    z-index: -1;
+    background-image: url("../img/empresa-fantasma-sat.webp"); 
+    background-size: contain; 
+   position: fixed;
+
+}
+
+.containerAlterar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    padding-bottom: 20vh;
+}
+
+.titulo-alterar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #88c560;
+    padding-bottom: 30px;
+}
+
+.containerTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 220vh;
+    height: 600px;
+    padding: 20px;
+    padding-bottom: 20vh;
+    background-image: url("../img/imagem-corporativa.webp"); 
+     z-index: -1;
+    background-size: contain; 
+   position: fixed;
+}
+
+.container input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container-alterar input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.radio-box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+
+.radio-box label {
+    margin-top: 10px;
+}
+
+.radio-box h1 {
+    margin-top: 10px;
+    color: #88c560;
+}
+
+.cadastroProduto {
+    padding-top: 140px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 700; 
+    color: #ffa500;
+}
+
+.cadastro label {
+    margin-right: 10px;
+}
+
+.btnCadastrar {
+     display: flex;
+    justify-content: flex-end;  
+    align-items: flex-end;      
+    height: 100%;               
+    padding: 10px;
+}
+
+.btnCadastrar input[type="submit"]:hover {
+    background-color: #111;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #111;
+    padding: 8px;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
